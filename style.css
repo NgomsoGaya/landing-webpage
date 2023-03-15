@@ -10,16 +10,32 @@ body {
 }
 .link1 {
     font-size: 3vw;
-    display: block;
+    display: inline;
     text-align: center;
-    color: gold;
+    color:white;
+    border: 2px solid black;
+    background-color: chocolate;
+    padding: 10px;
+    border-radius: 30%;
 }
 .link2 {
     font-size: 3vw;
-    display: block;
+    display: inline;
     text-align: center;
-    color: gold;
+    color: white;
+    border: 2px solid black;
+    background-color: chocolate;
+    padding: 10px;
+    border-radius: 30%;
 }
 .everything {
     text-align: center;
+}
+.first {
+     flex-direction: column-reverse;
+}
+.pik {
+    border: 3px solid chocolate;
+    border-radius: 100%;
+    margin-bottom: 20px;
 }
